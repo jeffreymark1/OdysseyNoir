@@ -26,6 +26,7 @@ header nav ul li a{
 
 .VisitGhana {
     width: 1440px;
+    z-index: 1;
 }
 
 .sectionTwo {
@@ -184,4 +185,99 @@ footer {
     color:rgb(80, 91, 153);
     -webkit-transition: all 0.4s ease-in-out;
     font-size: 16.50px;
+}
+
+@media (max-width:415px) {
+    .VisitGhana {
+        width: 100%;
+    }
+
+    .sectionTwo {
+        width: 100%;
+    }
+
+    .sectionTwoPhoto {
+        display: grid;
+        justify-items: center;
+    }
+
+    .ghanaGirlPhoto {
+        width: 360px;
+        height: 206px;
+        padding-top: 20px;
+        border-radius: 0%;
+    }
+
+    .mountainManPic {
+        width: 196px;
+        height: 358px;
+    }
+
+    .sectionTwoText {
+        font-size: 25px;
+    }
+
+    .benefitsOfTravel {
+        width: 349px;
+        height: 233px;
+        padding-bottom: 5px;
+    }
+
+    .blackgirlsinAfrica {
+        width: 349px;
+        height: 233px;
+        padding-top: 5px;
+    }
+
+    .sectionThreePhoto {
+        display: grid;
+        justify-content: center;
+    }
+
+    .sectionFour {
+        display: grid;
+    }
+
+    .sectionFourPhoto {
+        display: grid;
+        justify-items: center;
+    }
+
+    .aboutUsPic {
+        width: 320px;
+        height: 405px;
+        padding-left: 0px;
+        justify-items: center;
+    }
+
+    .aboutUsDiv {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .aboutUsDes {
+        display: grid;
+        width: 240px;
+        height: 100px;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .sectionFiveTexth1 {
+    
+    }
+
+    .VidsOfPastTrips {
+        display: grid;
+        justify-content: center;
+    }
+
+    .InstagramVideos {
+        width: 320px;
+        height: 569px;
+        border: 1px solid whitesmoke;
+    }
+
 }
