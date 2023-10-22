@@ -26,7 +26,6 @@ header nav ul li a{
 
 .VisitGhana {
     width: 1440px;
-    z-index: 1;
 }
 
 .sectionTwo {
@@ -188,13 +187,16 @@ footer {
 }
 
 @media (max-width:415px) {
+    .mobile {
+        display: none;
+    }
+    
     .VisitGhana {
         width: 100%;
     }
 
     .sectionTwo {
         width: 100%;
-        controls
     }
 
     .sectionTwoPhoto {
@@ -264,10 +266,6 @@ footer {
         height: 100px;
         font-size: medium;
         text-align: center;
-    }
-
-    .sectionFiveTexth1 {
-    
     }
 
     .VidsOfPastTrips {
