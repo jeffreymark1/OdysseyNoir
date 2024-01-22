@@ -170,6 +170,11 @@ header nav ul li a{
     font-size: xx-large;
 }
 
+.sectionSeven {
+    display: flex;
+    justify-content: space-between;
+}
+
 footer {
     text-align: center;
     background: whitesmoke;
