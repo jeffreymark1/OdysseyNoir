@@ -288,4 +288,20 @@ footer {
         padding-top: 25px;
     }
 
+    .sectionSeven {
+        display: grid;
+        width: 414px;
+        height: 218px;
+    }
+
+    .googlemap {
+        width: 414px;
+        height: 175px;
+    }
+
+    footer {
+        padding-top: 160px;
+        width: 414px;
+    }
+
 }
