@@ -175,6 +175,11 @@ header nav ul li a{
     justify-content: space-between;
 }
 
+.weather-Image {
+    width: 75px;
+    height: 75px;
+}
+
 footer {
     text-align: center;
     background: whitesmoke;
